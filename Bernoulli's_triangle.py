@@ -45,7 +45,7 @@ def bernoulli_triangle(n):
             n=n-1
     return lol
 
-#examples      
+#example     
 check.expect('EX1', bernoulli_triangle(1), [[1]])
 check.expect('EX2', bernoulli_triangle(4),  [[1], [1, 2], [1, 3, 4], \
                                              [1, 4, 7, 8]])        
